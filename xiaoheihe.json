@@ -1,0 +1,203 @@
+{
+    "activity":{
+
+        "tip":"请在网络好的地方执行\n有些任务可能失败 需要手动\n",
+        "list":[
+                
+                "❤️淘宝-小黑盒 更新2022-10-25❤️",
+                "设置多账号|自动化",
+                "活动入口",
+                "美团红包",
+                "饿了么红包",
+                "交流·反馈 qq群"
+            
+              
+                
+            ],
+        "mapping" :{
+            "设置多账号|自动化":{
+                "tip":"多账号设置 不同APP登录不同账号",
+                "list":[
+                    "淘宝运行---初始形式",
+                    "淘宝+天猫运行",
+                    "淘+天+点淘运行",
+                    "天猫运行",
+                    "点淘运行",
+                    "自动化连接"
+                ],
+                "mapping":{
+                    "淘宝运行---初始形式":{
+                        "type":"set",
+                        "value":"1"
+                    },
+                    "淘宝+天猫运行":{
+                        "type":"set",
+                        "value":"2"
+                    },
+                    "淘+天+点淘运行":{
+                        "type":"set",
+                        "value":"3"
+                        },
+                    "天猫运行":{
+                    "type":"set",
+                    "value":"4"
+                    },
+                    "点淘运行":{
+                        "type":"set",
+                        "value":"5"
+                        },
+                    "自动化连接":{
+                        "type":"copy",
+                        "value":"shortcuts://run-shortcut?name=天猫-小黑盒&input=text&text=run"
+                    }   
+                    
+                    
+                }
+            },
+            "活动入口":{
+                "list":[
+                    "淘宝",
+                    "天猫",
+                    "点淘"
+                ],
+                "mapping":{
+                    "淘宝":{
+                        "url":"taobao://www.tmall.com/wow/z/heybox/heyboxhome/Bf24peifbRKTD8C7xRnE"
+                    },
+                    "天猫":{
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https%3A%2F%2Fwww.tmall.com%2Fwow%2Fz%2Fheybox%2Fheyboxhome%2FBf24peifbRKTD8C7xRnE"
+                    },
+                    "点淘":{
+                        "url":"taobaoliveshare://www.tmall.com/wow/z/heybox/heyboxhome/Bf24peifbRKTD8C7xRnE"
+                    }
+                }
+                
+            },
+            "交流·反馈 qq群":{
+                        "url":"mqqapi://card/show_pslcard?src_type=internal&version=1&uin=617186271&card_type=group&source=qrcode"
+                    },
+            "美团红包":{
+                "url":"imeituan://www.meituan.com/web?lch=cps:waimai:3:776c2adbab1063dbf7bb27b032eccb42:weixin194:2:80292&url=https%3A%2F%2Fclick.meituan.com%2Ft%3Ft%3D1%26c%3D1%26p%3DOWMpZ-uzIFOVe6JyOONs3dXuqV0qcAf-r-KCvHdXiNeHGrf99tjKfEFmfKD5wE8tIKFZ5trT0sOMBI8PYBI709TQrHSowZ35lT3KWxR5a72vQtwrwa1jUpHSHlsPQ3wBH50kzjqu3xTNw3PB3roiT2P2MWrO42CJ2lWJd7PKSHsq7SN-lPlsxVNr-c3nhOZlzawAIr5UyPJjc9kRfnAhGytXnltosMtnrJ4-9fEOLfYcYn1hYyDi1pO1mZxZYFcHVaTZ7wo6zUcGkJ9ItxKfslK20asctpDoufdkj2gOK66MIO_E0-GFVB9nJtuWIF02y5LhdVrEh5ZhzlUhXuwSs7abZ1dbqqz4iLIK-XMwHWFt8hqiPJDLqN1KPbyuqfK0C-muxSJTCZNQxRHJYI6zQAskG7LvEhXxrmu3vEcbJ4hhFalkXdPf0W5opucJJRXCEr47CL5dm9L95FIVMLqeCJJ5CE_ghZ2nAjHWmMLUIxXFy6IujV9DipHPcMPs8ZmoZ0SpSCfFgFHdEXj0cRllpHsledjfVhcds2gty75ozk5vwCDgaO6ixMXqlH1193CtPpMtUDqH-iLaM2A0gxcmJ3gXk5UWz5vX-oQbH-Yjy0Ql7Mn_OEV_b_qDyBYgyrb7unXIthK-lehqig2yh0Nd0PV85jl3TZYOTtcA3YycoWhilLGW2wcCjY31r1QDkEgP"
+            },
+            "饿了么红包":{
+                "url":"eleme://web?url=https://m.tb.cn/h.fHjEo2X"
+            },
+             "8月2-15支付宝天天领红包":{
+                "url":"alipays://platformapi/startapp?appId=68687715&url=https%3A%2F%2Frender.alipay.com%2Fp%2Fc%2F180020180000047875%2Fpages%2Findex%2Findex.html%3FuserId%3D2088802913327612&userId=2088802913327612&titlePenetrate=YES&chInfo=ch_share__chsub_CopyLink"
+            },
+           
+            "淘特-天天领红包 09-07":{
+                 "url":"taobao://m.tb.cn/h.fcElrTQ"
+            
+            },
+            "美食币活动入口":{
+                "url":"taobao://huodong.m.taobao.com/act/snipcodeupdate.html?_ariver_appid=1000473"
+            },
+            "交流群":{
+                "list":{
+                    "qq":""
+                }
+            },
+            "淘礼金情报群":{
+                "url":"mqqapi://card/show_pslcard?src_type=internal&version=1&uin=596783999&card_type=group&source=qrcode"
+            },
+            
+
+           
+
+            
+            "❤️淘宝-小黑盒 更新2022-10-25❤️":{
+                "type":"task",
+                "key":["小黑盒"]
+                
+            }
+            
+            
+            
+        },
+
+        "taskList":["小黑盒"]
+                
+    },
+
+    "taskData":{
+           
+            "tag":"xiaoheihe",
+            "common":{
+            "url":"https://gitcode.net/felixax/updatejson/-/raw/master/auto/common/tb.txt"
+            
+            },
+
+            "小黑盒":{
+                "type":"task1",
+              
+                "endpage": "taobao://www.tmall.com/wow/z/heybox/heyboxhome/Bf24peifbRKTD8C7xRnE",
+                "main":"taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+                "endMessage":"小黑盒任务结束",
+                
+                "task":{
+                    "tag":"xiaoheihe",
+                    "scheme":"taobao://m.taobao.com/tbopen/index.html?h5Url=",
+                    "baseurl":"://商品定位.m.tmall.com?deliveryId=占位参数1&sceneId=占位参数4&hd_from_id=占位参数3&fromToken=ZXQ6JgOoBhBDYoJPKJSKzJtjGJsdUwUxU6UOUJ&implId=占位参数2",
+                    "wait":17,
+                    "wait2":"",
+                    "param":{
+                        "商品定位":["zhiben","anta","bigtummy"]
+                    },
+                    "before":[
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=56918&sceneId=6121&q=vivo&embed=true", "wait":5 },
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=58911&sceneId=6121&q=vivo&embed=true", "wait":13 },
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=63022&sceneId=6121&q=vivo&embed=true", "wait":8 },
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=51453&sceneId=6121&q=vivo&embed=true", "wait":5 },
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=60190&sceneId=6121&q=vivo&embed=true", "wait":8 },
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=61023&sceneId=6121&q=vivo&embed=true", "wait":8 },
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=51454&sceneId=6121&q=vivo&embed=true", "wait":5 },
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=51455&sceneId=6121&q=vivo&embed=true", "wait":8 },
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=51456&sceneId=6121&q=vivo&embed=true", "wait":13 },
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=64176&sceneId=6121&q=vivo&embed=true", "wait":8 },
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=51460&sceneId=6121&q=vivo&embed=true", "wait":5 },
+
+
+
+
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=31022&sceneId=6121&q=vivo&embed=true", "wait":8 },{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=27943&sceneId=6121&q=vivo&embed=true", "wait":12 },{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=50586&sceneId=6121&q=vivo&embed=true", "wait":8 },{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=27025&sceneId=6121&q=vivo&embed=true", "wait":8 },{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=24899&sceneId=6121&q=vivo&embed=true", "wait":8 },{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=17203&sceneId=6121&q=vivo&embed=true", "wait":8 }
+
+
+
+                      
+                    ],
+                    "item":[
+
+
+"65014 other_13_1939001_65014_0 100101 6121",
+"61647 other_59_1839007_61647_0 100101 6121",
+"51443 other_189_1835018_51443_0 100101 6121",
+"51447 other_189_1592009_51447_0 100101 6121",
+"52967 other_189_1567024_52967_0 100101 6121",
+"51459 other_189_1491009_51459_0 100101 6121",
+"51462 other_189_944003_51462_0 100101 6121",
+"52426 other_173_1975003_52426_0 100101 6121",
+"65507 other_8_0_65507_0 100101 6121",
+
+
+
+
+"30312 other_809_944003_30312_0 100101 1396",
+"53043 other_167_1567024_53043_0 100101 1396",
+"54522 other_147_1716006_54522_0 100101 1396",
+"60555 other_70_1833004_60555_0 100027 6434",
+"54144 other_214_1688001_54144_0 100101 1396",
+"48661 other_244_1449012_48661_0 100101 1396",
+"49976 other_224_1465021_49976_0 100101 1396",
+"21352 other_810_741018_21352_0 100101 1396",
+"21427 other_942_926007_21427_0 100101 1396"
+
+
+                          ]
+                }
+            }
+
+
+
+    }
+}

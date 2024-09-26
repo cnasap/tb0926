@@ -1,0 +1,213 @@
+{
+    "activity":{
+
+        "tip":"请在网络好的地方执行\n有些任务可能失败 需要手动\n",
+        "list":[
+                
+                "❤️每天任务❤️",
+                "设置多账号|自动化"
+              
+                
+            ],
+        "mapping" :{
+            "设置多账号|自动化":{
+                "tip":"多账号设置 不同APP登录不同账号",
+                "list":[
+                    "淘宝运行---初始形式",
+                    "天猫+淘宝运行",
+                    "天+点淘+淘宝运行",
+                    "天猫运行",
+                    "点淘运行",
+                    "淘特运行",
+                    "天猫+点淘运行",
+                    "淘宝+点淘运行",
+                    "淘宝+淘特+点淘运行",
+                    "淘宝+天猫+淘特运行",
+                    "淘特+点淘运行",
+                    "自动化连接"
+                ],
+                "mapping":{
+                    "淘宝运行---初始形式":{
+                        "type":"set",
+                        "value":"1"
+                    },
+                    "天猫+淘宝运行":{
+                        "type":"set",
+                        "value":"2"
+                    },
+                    "天+点淘+淘宝运行":{
+                        "type":"set",
+                        "value":"3"
+                        },
+                    "天猫运行":{
+                    "type":"set",
+                    "value":"4"
+                    },
+                    "点淘运行":{
+                        "type":"set",
+                        "value":"5"
+                        },
+                    "淘特运行":{
+                        "type":"set",
+                        "value":"10"
+                        },
+                    "天猫+点淘运行":{
+                        "type":"set",
+                        "value":"6"
+                        },
+                    "淘宝+点淘运行":{
+                        "type":"set",
+                        "value":"9"
+                        },
+                    "淘宝+淘特+点淘运行":{
+                        "type":"set",
+                        "value":"7"
+                        },
+                    "淘宝+天猫+淘特运行":{
+                        "type":"set",
+                        "value":"11"
+                        },
+                    "淘特+点淘运行":{
+                        "type":"set",
+                        "value":"8"
+                        },
+                    "自动化连接":{
+                        "type":"copy",
+                        "value":"shortcuts://run-shortcut?name=多账号&input=text&text=run"
+                    }                   
+
+                }
+            },
+            
+
+           
+
+            
+            "❤️每天任务❤️":{
+                "type":"task",
+                "key":["每天任务"]
+                
+            }
+            
+            
+            
+        },
+
+        "taskList":["每天任务"]
+                
+    },
+
+    "taskData":{
+           
+            "tag":"meitianrenwu",
+            "common":{
+            "url":"https://gitcode.net/felixax/updatejson/-/raw/master/auto/common/tb.txt"
+            
+            },
+
+            "每天任务":{
+                "type":"task1",
+              
+                "endpage": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+                "main":"taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+                "endMessage":"每天任务任务结束",
+                
+                "task":{
+                    "tag":"meitianrenwu",
+                    "scheme":"taobao://m.taobao.com/tbopen/index.html?h5Url=",
+                    "baseurl":"://商品定位.m.tmall.com?deliveryId=占位参数1&sceneId=占位参数4&hd_from_id=占位参数3&fromToken=aR1DJg5c00K9LpnNUeOS9GgikUzUNU7&implId=占位参数2",
+                    "wait":23,
+                    "wait2":"",
+                    "param":{
+                        "商品定位":["zhiben","anta","bigtummy"]
+                    },
+                    "before":[
+
+
+
+
+{"url":"://pages-fast.m.taobao.com/wow/z/tmtjb/town/home?_afc_link=1&asac=2A21B017LSI0KGN210C6D7&disableNav=YES&forbidRefineType=homepage&hd_from=widget&spm=coin_ios&utparamcnt=%7B%22_afc_link%22%3A%221%22%7D&widget_id=43&widget_open=TBCoinWidget&widget_size=S&x-sec=wua&x-ssr=true","wait":45},
+{"url":"://pages-fast.m.taobao.com/wow/z/tmtjb/tjbSSR/taocoin-cc-interaction-ssr?disableNav=YES","wait":25},
+{"url":"://pages.tmall.com/wow/z/wt/daily-earn-shee/8thjJK38HwhfMAskzDiN?disableNav=YES&openInMiniapp=true","wait":55},
+{"url":"://pages.tmall.com/wow/an/tmall/user-growth/play4?wh_biz=tm&disableNav=YES&debug=true&spm=a21nq7.29023125.0.0","wait":35},
+
+{"url":"://pages-fast.m.taobao.com/wow/z/tblife/achievement-i/JX4ezmspfN8txPMWyawe?x-ssr=true&disableNav=YES","wait":45},
+{"url":"://pages-fast.m.taobao.com/wow/z/app/mtb/platform-task/home?x-ssr=true&disableNav=YES","wait":35},
+{"url":"://pages.tmall.com/wow/bz/jingmi/1391?disableNav=YES","wait":25},
+{"url":"://pages.tmall.com/wow/go/mx-default/mx-business/18434c49edeb431da1659632ef1b4d5f?disableNav=YES","wait":20},
+{"url":"://pages.tmall.com/wow/go/mx-default/mb/360b720adb4b4f7f88747324846129ce?disableNav=YES","wait":29},
+{"url":"://pages.tmall.com/wow/go/mx-default/mb/70f5ce12296b4c3daa24b63c82727d4a?disableNav=YES","wait":29},
+{"url":"://pages.tmall.com/wow/go/mx-default/flash-sale/b208d77989674cfeb6876f84000d1e76?disableNav=YES","wait":25},
+{"url":"://mo.m.taobao.com/union/cailiang_CPCTask?ep=QaTYRQSoCApW&asId=1723251667030&spm=a2e0r.27682150.task.1&pid=mm_5130217341_3019600092_115587200433&union_lens=recoveryid%3Aa2e0r.27682150_1723251641757_35794851994226107_tVQQH%401723251641676%3Bprepvid%3Aa2e0r.27682150_1723251641757_35794851994226107_tVQQH%401723251641676&es=6N5BMwCGfcCa2P%2BN2ppgB5TYfk6gNAGenLgUcsj2FjhFoLbL4qV9ifaptGJQUui7IwwgcQkzMAA%3D&scm=20140767.59990_33_6_249_160_428_1723251642434.0%7C0%7C0.0&et=YkFYWJFg","wait":25},
+
+{"url":"://mo.m.taobao.com/union/path_1652768270875?spm=a2e0r.27037466.0.0&disableNav=YES&keyword=%E8%81%94%E6%83%B3r7000&pid=mm_5130217341_3019600092_115587200433&es=xwCasRHT2Saa2P%2BN2ppgB5TYfk6gNAGenLgUcsj2FjhFoLbL4qV9ifaptGJQUui78SfUdUtAtUQ25mmMxfxBpzk86lrbhEgS&ep=vmTxKWHJCMAJ&et=mgFrDvHG&rootPageId=20150318020010092","wait":25},
+
+{"url":"://mos.m.taobao.com/union/cailiang_main?wh_alimama=true&disableNav=YES&link_launch_performance=Y&link_launch_performance=Y","wait":45},
+
+
+{"url":"://web.m.taobao.com/app/tb-zhibo-app/interactive-signin-ice3/Home?disableNav=YES&autoLottery=true","wait":25},
+{"url":"://web.m.taobao.com/app/tb-zhibo-app/interactive-sleep-pha/Home?disableNav=YES","wait":15},
+{"url":"://web.m.taobao.com/app/tb-zhibo-app/interactive-work-ice3/Home?pha=true&disableNav=YES","wait":25},
+{"url":"://market.m.taobao.com/app/tb-zhibo-app/gold-withdraw/pages/index/index.html?spm=a21a5p.26999753.cashwithdraw_direct.0","wait":25},
+{"url":"://web.m.taobao.com/app/tb-zhibo-app/gold-center-ice3/HomeH5?disableNav=YES","wait":25},
+
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=45291&sceneId=5387&q=vivo&embed=true","wait":14},
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=66333&sceneId=2203&q=vivo&embed=true","wait":19},
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=68044&sceneId=2203&q=vivo&embed=true","wait":10},
+
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=44787&sceneId=5365&q=vivo&embed=true","wait":13},
+{"url":"://zhiben.m.tmall.com?deliveryId=74588&sceneId=5365&hd_from_id=100089&fromToken=&implId=cloudsail_588_11696975_74588_1","wait":19},
+{"url":"://zhiben.m.tmall.com?deliveryId=75461&sceneId=5365&hd_from_id=100089&fromToken=&implId=cloudsail_588_125400501040003_75461_1","wait":19},
+
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=73080&sceneId=8098&q=vivo&embed=true","wait":40},
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=73070&sceneId=8098&q=vivo&embed=true","wait":40},
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=72843&sceneId=7038&q=vivo&embed=true","wait":35},
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=72842&sceneId=7038&q=vivo&embed=true","wait":35},
+{"url":"://pages.tmall.com/wow/z/tmtjb/town/task?wh_biz=tm&disableNav=YES ","wait":19},
+{"url":"://pages.tmall.com/wow/z/wt/daily-earn-shee/8thjJK38HwhfMAskzDiN?disableNav=YES&openInMiniapp=true","wait":35},
+{"url":"://pages.tmall.com/wow/go/mx-default/mb/70f5ce12296b4c3daa24b63c82727d4a?disableNav=YES","wait":25},
+{"url":"://pages.tmall.com/wow/an/tmall/user-growth/play4?wh_biz=tm&disableNav=YES&debug=true&spm=a21nq7.29023125.0.0","wait":25},
+
+{"url":"://zhiben.m.tmall.com?deliveryId=74588&sceneId=5365&hd_from_id=100089&fromToken=&implId=cloudsail_588_11696975_74588_2","wait":19},
+{"url":"://zhiben.m.tmall.com?deliveryId=75461&sceneId=5365&hd_from_id=100089&fromToken=&implId=cloudsail_588_125400501040003_75461_2","wait":19},
+
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=73080&sceneId=8098&q=vivo&embed=true","wait":40},
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=73070&sceneId=8098&q=vivo&embed=true","wait":40},
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=72843&sceneId=7038&q=vivo&embed=true","wait":35},
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=72842&sceneId=7038&q=vivo&embed=true","wait":35},
+{"url":"://pages.tmall.com/wow/z/tmtjb/town/task?wh_biz=tm&disableNav=YES ","wait":19},
+{"url":"://pages.tmall.com/wow/z/wt/daily-earn-shee/8thjJK38HwhfMAskzDiN?disableNav=YES&openInMiniapp=true","wait":35},
+{"url":"://pages.tmall.com/wow/go/mx-default/mb/70f5ce12296b4c3daa24b63c82727d4a?disableNav=YES","wait":25},
+{"url":"://pages.tmall.com/wow/an/tmall/user-growth/play4?wh_biz=tm&disableNav=YES&debug=true&spm=a21nq7.29023125.0.0","wait":25},
+
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=73080&sceneId=8098&q=vivo&embed=true","wait":40},
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=73070&sceneId=8098&q=vivo&embed=true","wait":40},
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=72843&sceneId=7038&q=vivo&embed=true","wait":35},
+
+{"url":"://pages.tmall.com/wow/z/tmtjb/town/task?wh_biz=tm&disableNav=YES ","wait":19},
+{"url":"://pages.tmall.com/wow/go/mx-default/mb/70f5ce12296b4c3daa24b63c82727d4a?disableNav=YES&activityPageNeedx=true&disableptf=1&spm=a1z60.page_tmwidget.widget_maomaobi_small_collect.0&utparamcnt=%7B%22fc_channel_id%22:%7B%22tgyl%22:%22tmall_widget_1286_cg1428sqa1hc%22%7D%7D&afcflow=unkown&isNeedHome=0&bxsign=haiMIIN1DcQpxaehKDlbfiG4pPSOlVnU%2FmEyyliRQg6IPIBn6OHqV2zn37%2BL4SJp4PuEUrZUucR7mhpbIWiBiBALmASZLsMxBVX9k0VQYj3nHQ%3D","wait":25},
+{"url":"://pages.tmall.com/wow/an/tmall/user-growth/play4?wh_biz=tm&disableNav=YES&debug=true&spm=a21nq7.29023125.0.0","wait":25},
+
+
+
+{"url":"://pages.tmall.com/wow/an/cs/act/wupr?spm=a3204.12691414.header.dsign.40605885UqMgqz&wh_biz=tm&wh_pid=private-domain%2Fjournalisms-v2&disableNav=YES","wait":35},
+{"url":"://page.cainiao.com/mcn/cainiao-score/web/index.html?disableNav=YES","wait":65}
+
+
+
+
+                      
+                    ],
+                    "item":[
+
+
+
+
+                          ]
+                }
+            }
+
+
+
+    }
+}

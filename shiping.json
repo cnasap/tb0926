@@ -1,0 +1,185 @@
+{
+    "activity":{
+
+        "tip":"请在网络好的地方执行\n有些任务可能失败 需要手动\n",
+        "list":[
+                
+                "❤️淘宝-视频 更新2023-04-05❤️",
+                "设置多账号|自动化",
+                "活动入口"
+            
+              
+                
+            ],
+        "mapping" :{
+            "设置多账号|自动化":{
+                "tip":"多账号设置 不同APP登录不同账号",
+                "list":[
+                    "淘宝运行---初始形式",
+                    "淘宝+天猫运行",
+                    "淘+天+点淘运行",
+                    "天猫运行",
+                    "点淘运行",
+                    "点淘+天猫运行",
+                    "淘宝+淘特+点淘运行",
+                    "淘特+点淘运行",
+                    "自动化连接"
+                ],
+                "mapping":{
+                    "淘宝运行---初始形式":{
+                        "type":"set",
+                        "value":"1"
+                    },
+                    "淘宝+天猫运行":{
+                        "type":"set",
+                        "value":"2"
+                    },
+                    "淘+天+点淘运行":{
+                        "type":"set",
+                        "value":"3"
+                        },
+                    "天猫运行":{
+                    "type":"set",
+                    "value":"4"
+                    },
+                    "点淘运行":{
+                        "type":"set",
+                        "value":"5"
+                        },
+                    "点淘+天猫运行":{
+                        "type":"set",
+                        "value":"6"
+                        },
+                    "淘宝+淘特+点淘运行":{
+                        "type":"set",
+                        "value":"7"
+                        },
+                    "淘特+点淘运行":{
+                        "type":"set",
+                        "value":"8"
+                        },                       
+
+                    "自动化连接":{
+                        "type":"copy",
+                        "value":"shortcuts://run-shortcut?name=淘宝-芭芭农场任务&input=text&text=run"
+                    }   
+                    
+                    
+                }
+            },
+            
+            "❤️淘宝-视频 更新2023-04-05❤️":{
+                "type":"task",
+                "key":["视频"]
+                
+            }
+            
+            
+            
+        },
+
+        "taskList":["视频"]
+                
+    },
+
+    "taskData":{
+           
+"tag":"taobaoshiping",
+            
+            
+            "common":{ "url":"https://gitcode.net/felixax/updatejson/-/raw/master/auto/common/tb.txt"},
+            
+
+
+            "视频":{
+                "type":"task1",
+              
+                "endpage": "tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https%3A%2F%2Fpages.tmall.com/wow/an/tmall/user-growth/play4&origin_url=https://pages.tmall.com/wow/an/tmall/user-growth/play4?deviceId=272E1AB6-7550-4843-973C-2F742DBB403B&disableNav=YES",
+                "main":"taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+                "endMessage":"视频任务结束",
+                
+                "task":{
+                    "tag":"taobaoshiping",
+                    "scheme":"taobao://m.taobao.com/tbopen/index.html?h5Url=",
+                    "baseurl":"://商品定位.m.tmall.com?deliveryId=占位参数1&sceneId=占位参数4&hd_from_id=占位参数3&fromToken=aR1DJg5c00K9LpnNUeOS9GgikUzUNU7&implId=占位参数2",
+                    "wait":10,
+                    "wait2":"",
+                    "param":{
+                        "商品定位":["zhiben","anta","nike","bigtummy"]
+                    },
+                    "before":[
+
+{"url":"://m.taobao.com/tbopen/index.html?h5Url=https://m.taobao.com","wait":3},
+{"url":"://m.tb.cn/h.gV1k7xm","wait":10},
+{"url":"://m.tb.cn/h.gV1PTImh4sVh8RL","wait":8},
+{"url":"://m.tb.cn/h.gV1k7xm","wait":10},
+{"url":"://m.tb.cn/h.gV1PTImh4sVh8RL","wait":8},
+{"url":"://m.tb.cn/h.gV1k7xm","wait":10},
+{"url":"://m.tb.cn/h.gV1PTImh4sVh8RL","wait":8},
+{"url":"://m.tb.cn/h.gV1k7xm","wait":10},
+{"url":"://m.tb.cn/h.gV1PTImh4sVh8RL","wait":8},
+{"url":"://m.tb.cn/h.gV1k7xm","wait":10},
+{"url":"://m.tb.cn/h.gV1PTImh4sVh8RL","wait":8},
+{"url":"://m.tb.cn/h.gV1k7xm","wait":10},
+{"url":"://m.tb.cn/h.gV1PTImh4sVh8RL","wait":8},
+{"url":"://m.tb.cn/h.gV1k7xm","wait":10},
+{"url":"://m.tb.cn/h.gV1PTImh4sVh8RL","wait":8},
+{"url":"://m.tb.cn/h.gV1k7xm","wait":10},
+{"url":"://m.tb.cn/h.gV1PTImh4sVh8RL","wait":8},
+{"url":"://m.tb.cn/h.gV1k7xm","wait":10},
+{"url":"://m.tb.cn/h.gV1PTImh4sVh8RL","wait":8},
+{"url":"://m.tb.cn/h.gV1k7xm","wait":10},
+{"url":"://m.tb.cn/h.gV1PTImh4sVh8RL","wait":8},
+{"url":"://m.tb.cn/h.gV1k7xm","wait":10},
+{"url":"://m.tb.cn/h.gV1PTImh4sVh8RL","wait":8},
+
+
+{"url":"://m.tb.cn/h.geguNuI","wait":10},
+{"url":"://m.tb.cn/h.gV1PTImh4sVh8RL","wait":8},
+{"url":"://m.tb.cn/h.geguNuI","wait":10},
+{"url":"://m.tb.cn/h.gV1PTImh4sVh8RL","wait":8},
+{"url":"://m.tb.cn/h.geguNuI","wait":10},
+{"url":"://m.tb.cn/h.gV1PTImh4sVh8RL","wait":8},
+{"url":"://m.tb.cn/h.geguNuI","wait":10},
+{"url":"://m.tb.cn/h.gV1PTImh4sVh8RL","wait":8},
+{"url":"://m.tb.cn/h.geguNuI","wait":10},
+{"url":"://m.tb.cn/h.gV1PTImh4sVh8RL","wait":8},
+{"url":"://m.tb.cn/h.geguNuI","wait":10},
+{"url":"://m.tb.cn/h.gV1PTImh4sVh8RL","wait":8},
+{"url":"://m.tb.cn/h.geguNuI","wait":10},
+{"url":"://m.tb.cn/h.gV1PTImh4sVh8RL","wait":8},
+{"url":"://m.tb.cn/h.geguNuI","wait":10},
+{"url":"://m.tb.cn/h.gV1PTImh4sVh8RL","wait":8},
+{"url":"://m.tb.cn/h.geguNuI","wait":10},
+{"url":"://m.tb.cn/h.gV1PTImh4sVh8RL","wait":8},
+{"url":"://m.tb.cn/h.geguNuI","wait":10},
+{"url":"://m.tb.cn/h.gV1PTImh4sVh8RL","wait":8},
+{"url":"://m.tb.cn/h.geguNuI","wait":10},
+{"url":"://m.tb.cn/h.gV1PTImh4sVh8RL","wait":8}
+
+
+
+
+
+
+
+
+
+
+
+                      
+                    ],
+                    "item": [
+
+
+
+
+
+]
+                }
+            }
+
+
+
+    }
+}

@@ -1,0 +1,221 @@
+{
+    "activity":{
+
+        "tip":"请在网络好的地方执行\n有些任务可能失败 需要手动\n",
+        "list":[
+                 
+                "❤️淘宝-测试2 更新2023-04-05❤️",
+                "设置多账号|自动化",
+                "活动入口"
+            
+              
+                
+            ],
+        "mapping" :{
+            "设置多账号|自动化":{
+                "tip":"多账号设置 不同APP登录不同账号",
+                "list":[
+                    "淘宝运行---初始形式",
+                    "天猫+淘宝运行",
+                    "天+点淘+淘宝运行",
+                    "天猫运行",
+                    "点淘运行",
+                    "淘特运行",
+                    "天猫+点淘运行",
+                    "淘宝+点淘运行",
+                    "淘宝+淘特+点淘运行",
+                    "淘宝+天猫+淘特运行",
+                    "淘特+点淘运行",
+                    "自动化连接"
+                ],
+                "mapping":{
+                    "淘宝运行---初始形式":{
+                        "type":"set",
+                        "value":"1"
+                    },
+                    "天猫+淘宝运行":{
+                        "type":"set",
+                        "value":"2"
+                    },
+                    "天+点淘+淘宝运行":{
+                        "type":"set",
+                        "value":"3"
+                        },
+                    "天猫运行":{
+                    "type":"set",
+                    "value":"4"
+                    },
+                    "点淘运行":{
+                        "type":"set",
+                        "value":"5"
+                        },
+                    "淘特运行":{
+                        "type":"set",
+                        "value":"10"
+                        },
+                    "天猫+点淘运行":{
+                        "type":"set",
+                        "value":"6"
+                        },
+                    "淘宝+点淘运行":{
+                        "type":"set",
+                        "value":"9"
+                        },
+                    "淘宝+淘特+点淘运行":{
+                        "type":"set",
+                        "value":"7"
+                        },
+                    "淘宝+天猫+淘特运行":{
+                        "type":"set",
+                        "value":"11"
+                        },
+                    "淘特+点淘运行":{
+                        "type":"set",
+                        "value":"8"
+                        }
+                      
+                    
+                    
+                }
+            },
+                        "活动入口":{
+                "list":[
+                    "淘金币淘宝",
+                    "淘金币天猫",
+                    "淘金币点淘",
+                    "淘金币淘特",
+                    "薅羊毛淘宝",
+                    "薅羊毛天猫",
+                    "薅羊毛点淘",
+                    "薅羊毛淘特",
+                    "福气淘宝",
+                    "福气天猫",
+                    "福气点淘",
+                    "福气淘特"
+                ],
+                "mapping":{
+                    "淘金币淘宝":{
+                        "url":"taobao://pages.tmall.com/wow/z/tmtjb/town/home?disableNav=YES"
+                    },
+                    "淘金币天猫":{
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https://pages.tmall.com/wow/z/tmtjb/town/home?disableNav=YES"
+                    },
+                    "淘金币点淘":{
+                        "url":"taobaoliveshare://pages.tmall.com/wow/z/tmtjb/town/home?disableNav=YES"
+                    },
+                    "淘金币淘特":{
+                        "url":"taobaolite://pages.tmall.com/wow/z/tmtjb/town/home?disableNav=YES"
+                    },
+                    "薅羊毛淘宝":{
+                        "url":"taobao://pages.tmall.com/wow/z/wt/daily-earn-shee/8thjJK38HwhfMAskzDiN?disableNav=YES"
+                    },
+                    "薅羊毛天猫":{
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https%3A%2F%2Fpages.tmall.com%2Fwow%2Fz%2Fwt%2Fdaily-earn-shee%2F8thjJK38HwhfMAskzDiN%3FdisableNav%3DYES"
+                    },
+                    "薅羊毛点淘":{
+                        "url":"taobaoliveshare://pages.tmall.com/wow/z/wt/daily-earn-shee/8thjJK38HwhfMAskzDiN?disableNav=YES"
+                    },
+                    "薅羊毛淘特":{
+                        "url":"taobaolite://pages.tmall.com/wow/z/wt/daily-earn-shee/8thjJK38HwhfMAskzDiN?disableNav=YES"
+                    },
+                    "福气淘宝":{
+                        "url":"taobao://pages.tmall.com/wow/an/tmall/user-growth/play4?wh_biz=tm&disableNav=YES&debug=true&spm=a21nq7.29023125.0.0"
+                    },
+                    "福气天猫":{
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https://pages.tmall.com/wow/an/tmall/user-growth/play4?wh_biz=tm&disableNav=YES&debug=true&spm=a21nq7.29023125.0.0"
+                    },
+                    "福气点淘":{
+                        "url":"taobaoliveshare://pages.tmall.com/wow/an/tmall/user-growth/play4?wh_biz=tm&disableNav=YES&debug=true&spm=a21nq7.29023125.0.0"
+                    },
+                    "福气淘特":{
+                        "url":"taobaolite://pages.tmall.com/wow/an/tmall/user-growth/play4?wh_biz=tm&disableNav=YES&debug=true&spm=a21nq7.29023125.0.0"
+
+                    }
+                }
+                
+            },
+
+            
+            "❤️淘宝-测试2 更新2023-04-05❤️":{
+                "type":"task",
+                "key":["测试2"]
+                
+            }
+            
+            
+            
+        },
+
+        "taskList":["测试2"]
+                
+    },
+
+    "taskData":{
+           
+"tag":"taobaoceshi",
+            
+            
+            "common":{ "url":"https://gitcode.net/felixax/updatejson/-/raw/master/auto/common/tb.txt"},
+            
+
+
+            "测试2":{
+                "type":"task1",
+              
+                "endpage": "tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https%3A%2F%2Fpages.tmall.com/wow/an/tmall/user-growth/play4&origin_url=https://pages.tmall.com/wow/an/tmall/user-growth/play4?deviceId=272E1AB6-7550-4843-973C-2F742DBB403B&disableNav=YES",
+                "main":"taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+                "endMessage":"测试2任务结束",
+                
+                "task":{
+                    "tag":"taobaoceshi",
+                    "scheme":"taobao://m.taobao.com/tbopen/index.html?h5Url=",
+                    "baseurl":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId==占位参数1&sceneId=3744&q=vivo&embed=true",
+					
+					
+                    "wait":19,
+                    "wait2":"",
+                    "param":{
+                        "商品定位":["zhiben","anta","nike","bigtummy"]
+                    },
+                    "before":[
+
+
+{"url":"://mos.m.taobao.com/union/cailiang_main?wh_alimama=true&disableNav=YES&link_launch_performance=Y&link_launch_performance=Y","wait":25},                       
+{"url":"://pages-fast.m.taobao.com/wow/z/app/mtb/platform-task/home?x-ssr=true&disableNav=YES","wait":35},   
+{"url":"://web.m.taobao.com/app/tb-zhibo-app/interactive-sleep-pha/Home?disableNav=YES","wait":10},
+{"url":"://pages.tmall.com/wow/z/mp/interact/tmall-farm?disableNav=YES&disableProgress=true&spm=a21k01.29054023.0.0","wait":25},
+{"url":"://pages-fast.m.taobao.com/wow/z/hdwk/tmfarm/babanongchang?_afc_link=1&afcflow=unkown&asac=2A24307ET4SEKXYQ8G02LX&async=false&bxsign=hai3dvI9109pivKheGC%2FNbee%2Ba%2BTinjmVoaynAKcomyJfrGDN9AIOvxyh5r7VN6TxRrIvaITeF7l9HIhqEJXPWyesKqXxjH27HoB6TGZj1r4Rw%3D&checkJumpWishTree=true&disableNav=YES&disableProgress=YES&forbidRefineType=homepage&hd_from=widget&isMiniApp=true&isNeedHome=0&isTransparentBar=true&surge_ssr=true&uniapp_id=1011538&uniapp_page=home&utparamcnt=%7B%22_afc_link%22%3A%221%22%7D&widgetSend=true&widget_id=tmallFarm&widget_open=TMallFarmWidget&widget_size=S&x-preload=true&x-sec=wua&x-ssr=true","wait":25},
+{"url":"://pages.tmall.com/wow/z/tmtjb/town/tasklist-v2?wh_biz=tm&disableNav=YES","wait":35},
+{"url":"://pages-fast.m.taobao.com/wow/z/app/wt/hym/home?x-ssr=true&disableNav=YES&subSource=stcz_1&openInMiniapp=true&jsCode=rechargeOpenHym&x-preload=true","wait":35},
+{"url":"://pages.tmall.com/wow/an/tmall/user-growth/play4?wh_biz=tm&disableNav=YES&debug=true&spm=a21nq7.29023125.0.0","wait":35},
+{"url":"://page.cainiao.com/mcn/cainiao-score/web/index.html?disableNav=YES","wait":35}
+
+
+
+
+
+
+
+
+                      
+                    ],
+                    "item": [
+
+
+
+
+
+
+
+
+
+
+
+]
+                }
+            }
+
+
+
+    }
+}

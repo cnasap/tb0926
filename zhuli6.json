@@ -1,0 +1,147 @@
+{
+    "activity":{
+
+        "tip":"请在网络好的地方执行\n有些任务可能失败 需要手动\n",
+        "list":[
+                
+                "❤️淘宝-助力6$ 更新2024-03-01❤️",
+                "设置多账号|自动化"
+            
+              
+                
+            ],
+        "mapping" :{
+         "设置多账号|自动化":{
+                "tip":"多账号设置 不同APP登录不同账号",
+                "list":[
+                    "淘宝运行---初始形式",
+                    "淘宝+天猫运行",
+                    "淘+天+点淘运行",
+                    "天猫运行",
+                    "点淘运行",
+                    "自动化连接"
+                ],
+                "mapping":{
+                    "淘宝运行---初始形式":{
+                        "type":"set",
+                        "value":"1"
+                    },
+                    "淘宝+天猫运行":{
+                        "type":"set",
+                        "value":"2"
+                    },
+                    "淘+天+点淘运行":{
+                        "type":"set",
+                        "value":"3"
+                        },
+                    "天猫运行":{
+                    "type":"set",
+                    "value":"4"
+                    },
+                    "点淘运行":{
+                        "type":"set",
+                        "value":"5"
+                        },
+                    "自动化连接":{
+                        "type":"copy",
+                        "value":"shortcuts://run-shortcut?name=淘宝-芭芭农场任务&input=text&text=run"
+                    }   
+                    
+                    
+                }
+            },
+                      
+            
+            "❤️淘宝-助力6$ 更新2024-03-01❤️":{
+                "type":"task",
+                "key":["助力6"]
+                
+            }
+            
+            
+            
+        },
+
+        "taskList":["助力6"]
+                
+    },
+
+    "taskData":{
+           
+            "tag":"zhuli6",
+            "common":{
+            "url":"https://gitcode.net/felixax/updatejson/-/raw/master/auto/common/tb.txt"
+            
+            },
+
+            "助力6":{
+                "type":"task1",
+              
+                "endpage": "taobao://m.taobao.com/tbopen/index.html?h5Url=https://m.tb.cn/h.5swvjUl",
+                "main":"taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+                "endMessage":"助力6任务结束",
+                
+                "task":{
+                    "tag":"zhuli6",
+                    "scheme":"taobao://m.taobao.com/tbopen/index.html?h5Url=",
+                    "baseurl":"://商品定位.m.tmall.com?deliveryId=占位参数1&sceneId=占位参数4&hd_from_id=占位参数3&fromToken=aR1DJg5c00K9LpnNUeOS9GgikUzUNU7&implId=占位参数2",
+                    "wait":23,
+                    "wait2":"",
+                    "param":{
+                        "商品定位":["zhiben","anta","nike","bigtummy"]
+                    },
+                    "before":[
+
+
+{"url":"://m.tb.cn/h.ggX26r7","wait":10},
+{"url":"://m.tb.cn/h.gVXvWTV","wait":10},
+
+{"url":"://m.tb.cn/h.ggsGduO","wait":10},
+{"url":"://m.tb.cn/h.g56pHi8","wait":10},
+{"url":"://m.tb.cn/h.g5JOU1n","wait":10},
+
+{"url":"://m.tb.cn/h.ggNqiWJ","wait":15},
+
+{"url":"://m.tb.cn/h.g3bNNbg","wait":15},
+{"url":"://m.tb.cn/h.g3baYds","wait":15},
+{"url":"://m.tb.cn/h.gWoDcEy","wait":15},
+
+{"url":"://pages.tmall.com/wow/go/mx-default/mb/48b539113ac740d5a12a556308aac3a6?status_bar_transparent=true&disableNav=YES","wait":25},
+{"url":"://pages-fast.m.taobao.com/wow/z/app/mtb/platform-task/home?x-ssr=true&disableNav=YES","wait":25},
+{"url":"://pages.tmall.com/wow/go/mx-default/mx-business/18434c49edeb431da1659632ef1b4d5f?disableNav=YES","wait":15}
+
+
+                      
+					  
+					
+					
+				
+				
+
+                    ],
+                    "item":[
+
+                        
+                        
+                        
+
+                       
+                        
+                        
+
+
+
+
+                      
+                        
+
+
+
+                        ]
+                }
+            }
+
+
+
+    }
+}

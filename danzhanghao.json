@@ -1,0 +1,166 @@
+{
+    "activity":{
+
+        "tip":"请在网络好的地方执行\n有些任务可能失败 需要手动\n",
+        "list":[
+                
+                "❤️淘宝-单账号❤️",
+                "设置多账号|自动化"
+
+            
+              
+                
+            ],
+        "mapping" :{
+            "设置多账号|自动化":{
+                "tip":"多账号设置 不同APP登录不同账号",
+                "list":[
+                    "淘宝运行---初始形式",
+                    "淘宝+天猫运行",
+                    "淘+天+点淘运行",
+                    "天猫运行",
+                    "点淘运行",
+                    "自动化连接"
+                ],
+                "mapping":{
+                    "淘宝运行---初始形式":{
+                        "type":"set",
+                        "value":"1"
+                    },
+                    "淘宝+天猫运行":{
+                        "type":"set",
+                        "value":"2"
+                    },
+                    "淘+天+点淘运行":{
+                        "type":"set",
+                        "value":"3"
+                        },
+                    "天猫运行":{
+                    "type":"set",
+                    "value":"4"
+                    },
+                    "点淘运行":{
+                        "type":"set",
+                        "value":"5"
+                        },
+                    "自动化连接":{
+                        "type":"copy",
+                        "value":"shortcuts://run-shortcut?name=单账号&input=text&text=run"
+                    }   
+                    
+                    
+                }
+            },
+  
+            "❤️淘宝-单账号❤️":{
+                "type":"task",
+                "key":["单账号"]
+                
+            }
+            
+            
+            
+        },
+
+        "taskList":["单账号"]
+                
+    },
+
+    "taskData":{
+           
+            "tag":"danzhanghao",
+            "common":{
+            "url":"https://gitcode.net/felixax/updatejson/-/raw/master/auto/common/tb.txt"
+            
+            },
+
+            "单账号":{
+                "type":"task1",
+              
+                "endpage": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+                "main":"taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+                "endMessage":"淘宝-单账号任务结束",
+                
+                "task":{
+                    "tag":"danzhanghao",
+                    "scheme":"taobao://m.taobao.com/tbopen/index.html?h5Url=",
+                    "baseurl":"://商品定位.m.tmall.com?deliveryId=占位参数1&sceneId=占位参数4&hd_from_id=占位参数3&fromToken=aR1DJg5c00K9LpnNUeOS9GgikUzUNU7&implId=占位参数2",
+                    "wait":23,
+                    "wait2":"",
+                    "param":{
+                        "商品定位":["zhiben","anta","bigtummy"]
+                    },
+                    "before":[
+
+{"url":"://pages.tmall.com/wow/z/tmtjb/town/tasklist-v2?wh_biz=tm&disableNav=YES","wait":3},
+{"url":"://zhiben.m.tmall.com?deliveryId=57689&sceneId=5365&hd_from_id=100089&fromToken=&implId=tpp_389_2256594707_57689_0","wait":21},
+{"url":"://zhiben.m.tmall.com?deliveryId=64889&sceneId=5365&hd_from_id=100089&fromToken=&implId=other_454_1921008_64889_0","wait":21},
+{"url":"://zhiben.m.tmall.com?deliveryId=69234&sceneId=5365&hd_from_id=100089&fromToken=&implId=cloudsail_467_125400501040003_69234_0","wait":21},
+{"url":"://zhiben.m.tmall.com?deliveryId=65267&sceneId=5365&hd_from_id=100089&fromToken=&implId=other_393_1939008_65267_0","wait":21},
+{"url":"://zhiben.m.tmall.com?deliveryId=44713&sceneId=5365&hd_from_id=100089&fromToken=&implId=other_841_1846020_44713_0","wait":21},
+{"url":"://pages.tmall.com/wow/z/tmtjb/town/tasklist-v2?wh_biz=tm&disableNav=YES","wait":3},
+{"url":"://zhiben.m.tmall.com?deliveryId=74588&sceneId=5365&hd_from_id=100089&fromToken=&implId=other_584_10489499_74588_0","wait":21},
+
+{"url":"://zhiben.m.tmall.com?deliveryId=34352&sceneId=1412&hd_from_id=100102&fromToken=&implId=other_121_917031_34352_0","wait":18},
+{"url":"://zhiben.m.tmall.com?deliveryId=35972&sceneId=1412&hd_from_id=100102&fromToken=&implId=other_817_2300010_35972_0","wait":18},
+{"url":"://zhiben.m.tmall.com?deliveryId=22084&sceneId=1412&hd_from_id=100129&fromToken=&implId=other_178_750032_22084_0","wait":21},
+{"url":"://zhiben.m.tmall.com?deliveryId=65288&sceneId=1412&hd_from_id=100102&fromToken=&implId=other_949_2279002_65288_0","wait":21},
+{"url":"://zhiben.m.tmall.com?deliveryId=73091&sceneId=8098&hd_from_id=100102&fromToken=&implId=other_578_2334005_73091_0","wait":21},
+{"url":"://zhiben.m.tmall.com?deliveryId=74784&sceneId=8099&hd_from_id=100102&fromToken=&implId=other_592_2326031_74784_0","wait":21},
+{"url":"://zhiben.m.tmall.com?deliveryId=73216&sceneId=8098&hd_from_id=100102&fromToken=&implId=other_566_750032_73216_0","wait":21}
+
+
+
+                      
+                    ],
+                    "item":[
+
+
+"17734 cloudsail_431_465305002790001_17734_0 100085 971",
+"46316 cloudsail_132_125400501040001_46316_0 100085 5387",
+"46316 cloudsail_132_125400501040001_46316_1 100085 5387",
+"46316 cloudsail_132_125400501040001_46316_2 100085 5387",
+"59536 cloudsail_380_11005063_59536_0 100085 5387",
+"46315 cloudsail_132_125400501040001_46315_0 100085 5387",
+"46315 cloudsail_132_125400501040003_46315_1 100085 5387",
+"46315 cloudsail_132_125400501040001_46315_2 100085 5387",
+"46315 cloudsail_132_11696975_46315_0 100085 5387",
+"45318 other_652_872010_45318_0 100085 5387",
+
+"45355 auge36n-1.0.0_316_32568071562089_45355_0 100085 5387",
+"71395 cloudsail_511_125400501040001_71395_0 100085 5387",
+"69668 other_467_2064003_69668_0 100085 5387",
+
+"75461 cloudsail_588_125400501040003_75461_0 100089 5365",
+"72405 other_584_12064333_72405_0 100089 5365",
+"73091 other_578_2389013_73091_0 100102 8098",
+
+"70441 cloudsail_54_125400501040003_70441_0 100085 972",
+"70441 cloudsail_54_125400501040003_70441_1 100085 972",
+"70441 cloudsail_54_125400501040003_70441_2 100085 972",
+
+"73333 linked_579_0_73333_0 100102 8098",
+
+"53016 other_198_1841006_53016_0 100130 2203",
+"36248 alicom-dz_695_22536_36248_0 100130 2203",
+"17822 other_612_1722002_17822_0 100130 2203",
+"36251 alicom-dz_854_23718_36251_0 100130 2203"
+
+
+
+
+
+
+
+
+
+
+
+                          ]
+                }
+            }
+
+
+
+    }
+}

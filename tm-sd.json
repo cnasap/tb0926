@@ -1,0 +1,155 @@
+{
+    "activity":{
+
+        "tip":"请在网络好的地方执行\n有些任务可能失败 需要手动\n",
+        "list":[
+                
+                "??天猫-手动??",
+                "设置多账号|自动化"
+                
+              
+                
+            ],
+        "mapping" :{
+            "设置多账号|自动化":{
+                "tip":"多账号设置 不同APP登录不同账号",
+                "list":[
+                    "淘宝运行---初始形式",
+                    "淘宝+天猫运行",
+                    "淘+天+点淘运行",
+                    "天猫运行",
+                    "点淘运行",
+                    "点淘+天猫运行",
+                    "淘宝+淘特+点淘运行",
+                    "淘特+点淘运行",
+                    "自动化连接"
+                ],
+                "mapping":{
+                    "淘宝运行---初始形式":{
+                        "type":"set",
+                        "value":"1"
+                    },
+                    "淘宝+天猫运行":{
+                        "type":"set",
+                        "value":"2"
+                    },
+                    "淘+天+点淘运行":{
+                        "type":"set",
+                        "value":"3"
+                        },
+                    "天猫运行":{
+                    "type":"set",
+                    "value":"4"
+                    },
+                    "点淘运行":{
+                        "type":"set",
+                        "value":"5"
+                        },
+                    "点淘+天猫运行":{
+                        "type":"set",
+                        "value":"6"
+                        },
+                    "淘宝+淘特+点淘运行":{
+                        "type":"set",
+                        "value":"7"
+                        },
+                    "淘特+点淘运行":{
+                        "type":"set",
+                        "value":"8"
+                        }                       
+                    
+                    
+                }
+            },
+                       
+                  
+
+            "??天猫-手动??":{
+                "type":"task",
+                "key":["天猫手动"]
+                
+            }
+            
+            
+            
+        },
+
+        "taskList":["天猫手动"]
+                
+    },
+
+    "taskData":{
+           
+            "tag":"tmsd",
+            "common":{
+            "url":"https://gitcode.net/felixax/updatejson/-/raw/master/auto/common/tb.txt"
+            
+            },
+
+            "天猫手动":{
+                "type":"task1",
+              
+                "endpage": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+                "main":"taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+                "endMessage":"天猫手动任务结束",
+                
+                "task":{
+                    "tag":"tmsd",
+                    "scheme":"taobao://m.taobao.com/tbopen/index.html?h5Url=",
+                    "baseurl":"://商品定位.m.tmall.com?deliveryId=占位参数1&sceneId=占位参数4&hd_from_id=占位参数3&fromToken=aR1DJg5c00K9LpnNUeOS9GgikUzUNU7&implId=占位参数2",
+                    "wait":23,
+                    "wait2":"",
+                    "param":{
+                        "商品定位":["zhiben","anta","nike","bigtummy"]
+                    },
+                    "before":[
+
+
+{"url":"://pages.tmall.com/wow/go/mx-growth/undertake/play4?from=widget&deviceId=7B80D37D-408C-4605-ADE7-9AE4579EEB28&bxsign=haiZivzLIqG8mafA%2F8XZH49FFUSxakgznb8AU0IKRQkB1NLjZI%2B9zUDMxsZx90cvaJaPUeVk1qKvzEslMuTUQfOEDJUxkFwQFTSvQ08C3Q8igs%3D&ttid=201200%40tmall_iphone_15.27.0&spm=a1z60.page_tmwidget.widget_luck_small_collect.0&utparamcnt=%7B%22fc_channel_id%22%3A%7B%22tgyl%22%3A%22tmall_widget_1284_cg13yyh9s740%22%7D%7D&isNeedHome=0&afcflow=unkown&disableNav=YES","wait":15},
+{"url":"://pages.tmall.com/wow/an/tmall/user-growth/play4?deviceId=272E1AB6-7550-4843-973C-2F742DBB403B&disableNav=YES","wait":15}, 
+{"url":"://market.m.taobao.com/app/kaola-src/activity-pages/pages/lottery/tmHome/index.html?activityShareId=27cf129ab5384287aa01a392ea625f6c&spm=a212ne.22296768.direct-crowd-guide.0","wait":15}, 
+{"url":"://pages.tmall.com/wow/go/mx-growth/undertake/fuqi-exchange-benefit?spm=a212ne.22296768.2907863190.1&disableNav=YES","wait":15},
+ 
+ 
+{"url":"://pages.tmall.com/wow/an/tmall/user-growth/play4?wh_biz=tm&disableNav=YES&wh_pid=play4&autoTaskList=true","wait":25},                    
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=62580&sceneId=1412&q=vivo&embed=true","wait":40},
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=59698&sceneId=1412&q=vivo&embed=true","wait":40},
+{"url":"://pages.tmall.com/wow/an/tmall/user-growth/play4?wh_biz=tm&disableNav=YES&wh_pid=play4&autoTaskList=true","wait":15},
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=62580&sceneId=1412&q=vivo&embed=true","wait":40},
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=59698&sceneId=1412&q=vivo&embed=true","wait":40},
+{"url":"://pages.tmall.com/wow/an/tmall/user-growth/play4?wh_biz=tm&disableNav=YES&wh_pid=play4&autoTaskList=true","wait":15},
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=62580&sceneId=1412&q=vivo&embed=true","wait":40},
+{"url":"://pages.tmall.com/wow/an/tmall/user-growth/play4?wh_biz=tm&disableNav=YES&wh_pid=play4&autoTaskList=true","wait":15},
+
+
+{"url":"://pages.tmall.com/wow/go/mx-default/mx-business/18434c49edeb431da1659632ef1b4d5f?disableNav=YES","wait":15},
+{"url":"://pages.tmall.com/wow/go/mx-default/mb/48b539113ac740d5a12a556308aac3a6?status_bar_transparent=true&disableNav=YES","wait":45},
+{"url":"://pages.tmall.com/wow/go/mx-default/mb/360b720adb4b4f7f88747324846129ce?disableNav=YES","wait":50},
+
+{"url":"://pages.tmall.com/wow/go/mx-default/mb/70f5ce12296b4c3daa24b63c82727d4a?disableNav=YES","wait":35},
+
+{"url":"://pages.tmall.com/wow/go/mx-default/flash-sale/b208d77989674cfeb6876f84000d1e76?deviceId=F4C8C981-1744-48FC-A9BE-A7AFA2B9FA05&activityPageNeedx=true&prismTrace=66260&ttid=201200%40tmall_iphone_15.19.0&spm=a21nq7.28375126.tasklist-pentaprism.66260&disableNav=YES","wait":35},
+{"url":"://pages.tmall.com/wow/go/mx-sales/default/zone?disableNav=YES","wait":25}
+
+
+
+
+
+
+                      
+                    ],
+                    "item": [
+
+
+
+
+
+
+]
+                }
+            }
+
+
+
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "activity":{
+
+        "tip":"请在网络好的地方执行\n有些任务可能失败 需要手动\n",
+        "list":[
+                
+                "❤️淘宝-淘花岛❤️"
+
+            
+              
+                
+            ],
+        "mapping" :{
+            
+            
+            "❤️淘宝-淘花岛❤️":{
+                "type":"task",
+                "key":["淘花岛"]
+                
+            }
+            
+            
+            
+        },
+
+        "taskList":["淘花岛"]
+                
+    },
+
+    "taskData":{
+           
+            "tag":"taobaotaohuadao",
+            "common":{
+            "url":"https://gitcode.net/felixax/updatejson/-/raw/master/auto/common/tb.txt"
+            
+            },
+
+            "淘花岛":{
+                "type":"task1",
+              
+                "endpage": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+                "main":"taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+                "endMessage":"淘花岛任务结束",
+                
+                "task":{
+                    "tag":"taobaotaohuadao",
+                    "scheme":"taobao://m.taobao.com/tbopen/index.html?h5Url=",
+                    "baseurl":"://商品定位.m.tmall.com?deliveryId=占位参数1&sceneId=占位参数4&hd_from_id=占位参数3&fromToken=aR1DJg5c00K9LpnNUeOS9GgikUzUNU7&implId=占位参数2",
+                    "wait":23,
+                    "wait2":"",
+                    "param":{
+                        "商品定位":["zhiben","anta","nike","bigtummy"]
+                    },
+                    "before":[
+
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=58745&sceneId=1560&q=vivo&embed=true","wait":10},
+{"url":"://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=22529&sceneId=1560&q=vivo&embed=true","wait":33}
+
+
+                    ],
+                    "item":[
+
+"55016 auctionruby_188_102127_55016_0 100086 2558", 
+"55016 auctionruby_188_102127_55016_2 100086 2558",
+"55016 auctionruby_188_102127_55016_3 100086 2558", 
+"55016 auctionruby_188_102127_55016_4 100086 2558",  
+"55016 auctionruby_188_102127_55016_5 100086 2558", 
+"55016 auctionruby_188_102127_55016_6 100086 2558",  
+"55016 auctionruby_188_102127_55016_7 100086 2558", 
+"55016 auctionruby_188_102127_55016_8 100086 2558",  
+"55016 auctionruby_188_102127_55016_9 100086 2558", 
+"55016 auctionruby_188_102127_55016_10 100086 2558"                  
+                        
+                        
+
+                       
+                        
+                        
+
+
+
+                        
+
+
+
+                        ]
+                }
+            }
+
+
+
+    }
+}
