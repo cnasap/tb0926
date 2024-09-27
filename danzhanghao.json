@@ -51,6 +51,65 @@
                     
                 }
             },
+
+                        "活动入口":{
+                "list":[
+                    "淘宝养鸡",
+                    "天猫养鸡",
+                    "点淘养鸡",
+                    "淘特养鸡",
+                    "淘宝直播",
+                    "天猫直播",
+                    "点淘直播",
+                    "淘特直播",
+                    "淘宝能量",
+                    "天猫能量",
+                    "点淘能量",
+                    "淘特能量"
+                ],
+                "mapping":{
+                    "淘宝养鸡":{
+                        "url":"taobao://pages.tmall.com/wow/z/mp/interact/tmall-farm?disableNav=YES"
+                    },
+                    "天猫养鸡":{
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https://pages.tmall.com/wow/z/mp/interact/tmall-farm?disableNav=YES"
+                    },
+                    "点淘养鸡":{
+                        "url":"taobaoliveshare://pages.tmall.com/wow/z/mp/interact/tmall-farm?disableNav=YES"
+                    },
+                    "淘特养鸡":{
+                        "url":"taobaolite://pages.tmall.com/wow/z/mp/interact/tmall-farm?disableNav=YES"
+                    },
+                    "淘宝直播":{
+                        "url":"taobao://pages-fast.m.taobao.com/wow/z/app/mtb/platform-task/home?x-ssr=true&disableNav=YES"
+                    },
+                    "天猫直播":{
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https%3A%2F%2Fpages-fast.m.taobao.com/wow/z/app/mtb/platform-task/home?x-ssr=true&disableNav=YES"
+                    },
+                    "点淘直播":{
+                        "url":"taobaoliveshare://pages-fast.m.taobao.com/wow/z/app/mtb/platform-task/home?x-ssr=true&disableNav=YES"
+                    },
+                    "淘特直播":{
+                        "url":"taobaolite://pages-fast.m.taobao.com/wow/z/app/mtb/platform-task/home?x-ssr=true&disableNav=YES"
+                    },
+                    "淘宝能量":{
+                        "url":"taobao://mos.m.taobao.com/union/cailiang_main?wh_alimama=true&disableNav=YES&link_launch_performance=Y&link_launch_performance=Y"
+                    },
+                    "天猫能量":{
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https://mos.m.taobao.com/union/cailiang_main?wh_alimama=true&disableNav=YES&link_launch_performance=Y&link_launch_performance=Y"
+                    },
+                    "点淘能量":{
+                        "url":"taobaoliveshare://mos.m.taobao.com/union/cailiang_main?wh_alimama=true&disableNav=YES&link_launch_performance=Y&link_launch_performance=Y"
+                    },
+                    "淘特能量":{
+                        "url":"taobaolite://mos.m.taobao.com/union/cailiang_main?wh_alimama=true&disableNav=YES&link_launch_performance=Y&link_launch_performance=Y"
+
+                    }
+                }
+                
+            },
+          
+            
   
             "❤️淘宝-单账号❤️":{
                 "type":"task",
