@@ -61,13 +61,58 @@
                     
                 }
             },
-             "活动入口":{
+                        "活动入口":{
                 "list":[
-                    "天猫养鸡"
+                    "淘宝喵喵币",
+                    "天猫喵喵币",
+                    "点淘喵喵币",
+                    "淘特喵喵币",
+                    "淘宝盲盒",
+                    "天猫盲盒",
+                    "点淘盲盒",
+                    "淘特盲盒",
+                    "淘宝闪购",
+                    "天猫闪购",
+                    "点淘闪购",
+                    "淘特闪购"
                 ],
                 "mapping":{
-                    "天猫养鸡":{
-                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https://pages.tmall.com/wow/z/mp/interact/tmall-farm?disableNav=YES"
+                    "淘宝喵喵币":{
+                        "url":"taobao://pages.tmall.com/wow/go/mx-default/mb/70f5ce12296b4c3daa24b63c82727d4a?disableNav=YES&activityPageNeedx=true&disableptf=1&spm=a1z60.page_tmwidget.widget_maomaobi_small_collect.0&utparamcnt=%7B%22fc_channel_id%22:%7B%22tgyl%22:%22tmall_widget_1286_cg1428sqa1hc%22%7D%7D&afcflow=unkown&isNeedHome=0&bxsign=haiMIIN1DcQpxaehKDlbfiG4pPSOlVnU%2FmEyyliRQg6IPIBn6OHqV2zn37%2BL4SJp4PuEUrZUucR7mhpbIWiBiBALmASZLsMxBVX9k0VQYj3nHQ%3D"
+                    },
+                    "天猫喵喵币":{
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https://pages.tmall.com/wow/go/mx-default/mb/70f5ce12296b4c3daa24b63c82727d4a?disableNav=YES&activityPageNeedx=true&disableptf=1&spm=a1z60.page_tmwidget.widget_maomaobi_small_collect.0&utparamcnt=%7B%22fc_channel_id%22:%7B%22tgyl%22:%22tmall_widget_1286_cg1428sqa1hc%22%7D%7D&afcflow=unkown&isNeedHome=0&bxsign=haiMIIN1DcQpxaehKDlbfiG4pPSOlVnU%2FmEyyliRQg6IPIBn6OHqV2zn37%2BL4SJp4PuEUrZUucR7mhpbIWiBiBALmASZLsMxBVX9k0VQYj3nHQ%3D"
+                    },
+                    "点淘喵喵币":{
+                        "url":"taobaoliveshare://pages.tmall.com/wow/go/mx-default/mb/70f5ce12296b4c3daa24b63c82727d4a?disableNav=YES&activityPageNeedx=true&disableptf=1&spm=a1z60.page_tmwidget.widget_maomaobi_small_collect.0&utparamcnt=%7B%22fc_channel_id%22:%7B%22tgyl%22:%22tmall_widget_1286_cg1428sqa1hc%22%7D%7D&afcflow=unkown&isNeedHome=0&bxsign=haiMIIN1DcQpxaehKDlbfiG4pPSOlVnU%2FmEyyliRQg6IPIBn6OHqV2zn37%2BL4SJp4PuEUrZUucR7mhpbIWiBiBALmASZLsMxBVX9k0VQYj3nHQ%3D"
+                    },
+                    "淘特喵喵币":{
+                        "url":"taobaolite://pages.tmall.com/wow/go/mx-default/mb/70f5ce12296b4c3daa24b63c82727d4a?disableNav=YES&activityPageNeedx=true&disableptf=1&spm=a1z60.page_tmwidget.widget_maomaobi_small_collect.0&utparamcnt=%7B%22fc_channel_id%22:%7B%22tgyl%22:%22tmall_widget_1286_cg1428sqa1hc%22%7D%7D&afcflow=unkown&isNeedHome=0&bxsign=haiMIIN1DcQpxaehKDlbfiG4pPSOlVnU%2FmEyyliRQg6IPIBn6OHqV2zn37%2BL4SJp4PuEUrZUucR7mhpbIWiBiBALmASZLsMxBVX9k0VQYj3nHQ%3D"
+                    },
+                    "淘宝盲盒":{
+                        "url":"taobao://pages.tmall.com/wow/go/mx-default/mb/360b720adb4b4f7f88747324846129ce?disableNav=YES"
+                    },
+                    "天猫盲盒":{
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https%3A%2F%2Fpages.tmall.com/wow/go/mx-default/mb/360b720adb4b4f7f88747324846129ce?disableNav=YES"
+                    },
+                    "点淘盲盒":{
+                        "url":"taobaoliveshare://pages.tmall.com/wow/go/mx-default/mb/360b720adb4b4f7f88747324846129ce?disableNav=YES"
+                    },
+                    "淘特盲盒":{
+                        "url":"taobaolite://pages.tmall.com/wow/go/mx-default/mb/360b720adb4b4f7f88747324846129ce?disableNav=YES"
+                    },
+                    "淘宝闪购":{
+                        "url":"taobao://pages.tmall.com/wow/go/mx-default/flash-sale/b208d77989674cfeb6876f84000d1e76?disableNav=YES"
+                    },
+                    "天猫闪购":{
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https://pages.tmall.com/wow/go/mx-default/flash-sale/b208d77989674cfeb6876f84000d1e76?disableNav=YES"
+                    },
+                    "点淘闪购":{
+                        "url":"taobaoliveshare://pages.tmall.com/wow/go/mx-default/flash-sale/b208d77989674cfeb6876f84000d1e76?disableNav=YES"
+                    },
+                    "淘特闪购":{
+                        "url":"taobaolite://pages.tmall.com/wow/go/mx-default/flash-sale/b208d77989674cfeb6876f84000d1e76?disableNav=YES"
+
                     }
                 }
                 
