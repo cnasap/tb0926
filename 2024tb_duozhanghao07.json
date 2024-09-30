@@ -82,7 +82,62 @@
                     
                 }
             },
+"活动入口":{
+                "list":[
+                    "淘宝农场",
+                    "天猫农场",
+                    "点淘农场",
+                    "淘特农场",
+                    "淘宝金币",
+                    "天猫金币",
+                    "点淘金币",
+                    "淘特金币",
+                    "淘宝羊毛",
+                    "天猫羊毛",
+                    "点淘羊毛",
+                    "淘特羊毛"
+                ],
+                "mapping":{
+                    "淘宝农场":{
+                        "url":"taobao://pages-fast.m.taobao.com/wow/z/hdwk/tmfarm/babanongchang?_afc_link=1&afcflow=unkown&asac=2A24307ET4SEKXYQ8G02LX&async=false&bxsign=hai3dvI9109pivKheGC%2FNbee%2Ba%2BTinjmVoaynAKcomyJfrGDN9AIOvxyh5r7VN6TxRrIvaITeF7l9HIhqEJXPWyesKqXxjH27HoB6TGZj1r4Rw%3D&checkJumpWishTree=true&disableNav=YES&disableProgress=YES&forbidRefineType=homepage&hd_from=widget&isMiniApp=true&isNeedHome=0&isTransparentBar=true&surge_ssr=true&uniapp_id=1011538&uniapp_page=home&utparamcnt=%7B%22_afc_link%22%3A%221%22%7D&widgetSend=true&widget_id=tmallFarm&widget_open=TMallFarmWidget&widget_size=S&x-preload=true&x-sec=wua&x-ssr=true"
+                    },
+                    "天猫农场":{
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https://pages-fast.m.taobao.com/wow/z/hdwk/tmfarm/babanongchang?_afc_link=1&afcflow=unkown&asac=2A24307ET4SEKXYQ8G02LX&async=false&bxsign=hai3dvI9109pivKheGC%2FNbee%2Ba%2BTinjmVoaynAKcomyJfrGDN9AIOvxyh5r7VN6TxRrIvaITeF7l9HIhqEJXPWyesKqXxjH27HoB6TGZj1r4Rw%3D&checkJumpWishTree=true&disableNav=YES&disableProgress=YES&forbidRefineType=homepage&hd_from=widget&isMiniApp=true&isNeedHome=0&isTransparentBar=true&surge_ssr=true&uniapp_id=1011538&uniapp_page=home&utparamcnt=%7B%22_afc_link%22%3A%221%22%7D&widgetSend=true&widget_id=tmallFarm&widget_open=TMallFarmWidget&widget_size=S&x-preload=true&x-sec=wua&x-ssr=true"
+                    },
+                    "点淘农场":{
+                        "url":"taobaoliveshare://pages-fast.m.taobao.com/wow/z/hdwk/tmfarm/babanongchang?_afc_link=1&afcflow=unkown&asac=2A24307ET4SEKXYQ8G02LX&async=false&bxsign=hai3dvI9109pivKheGC%2FNbee%2Ba%2BTinjmVoaynAKcomyJfrGDN9AIOvxyh5r7VN6TxRrIvaITeF7l9HIhqEJXPWyesKqXxjH27HoB6TGZj1r4Rw%3D&checkJumpWishTree=true&disableNav=YES&disableProgress=YES&forbidRefineType=homepage&hd_from=widget&isMiniApp=true&isNeedHome=0&isTransparentBar=true&surge_ssr=true&uniapp_id=1011538&uniapp_page=home&utparamcnt=%7B%22_afc_link%22%3A%221%22%7D&widgetSend=true&widget_id=tmallFarm&widget_open=TMallFarmWidget&widget_size=S&x-preload=true&x-sec=wua&x-ssr=true"
+                    },
+                    "淘特农场":{
+                        "url":"taobaolite://pages-fast.m.taobao.com/wow/z/hdwk/tmfarm/babanongchang?_afc_link=1&afcflow=unkown&asac=2A24307ET4SEKXYQ8G02LX&async=false&bxsign=hai3dvI9109pivKheGC%2FNbee%2Ba%2BTinjmVoaynAKcomyJfrGDN9AIOvxyh5r7VN6TxRrIvaITeF7l9HIhqEJXPWyesKqXxjH27HoB6TGZj1r4Rw%3D&checkJumpWishTree=true&disableNav=YES&disableProgress=YES&forbidRefineType=homepage&hd_from=widget&isMiniApp=true&isNeedHome=0&isTransparentBar=true&surge_ssr=true&uniapp_id=1011538&uniapp_page=home&utparamcnt=%7B%22_afc_link%22%3A%221%22%7D&widgetSend=true&widget_id=tmallFarm&widget_open=TMallFarmWidget&widget_size=S&x-preload=true&x-sec=wua&x-ssr=true"
+                    },
+                    "淘宝金币":{
+                        "url":"taobao://pages.tmall.com/wow/z/tmtjb/town/home?wh_biz=tm&disableNav=YES&hd_from=widget&widget_open=TBCoinWidget&async=false&surge_ssr=true&isNeedHome=0"
+                    },
+                    "天猫金币":{
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https%3A%2F%2Fpages.tmall.com/wow/z/tmtjb/town/home?wh_biz=tm&disableNav=YES&hd_from=widget&widget_open=TBCoinWidget&async=false&surge_ssr=true&isNeedHome=0"
+                    },
+                    "点淘金币":{
+                        "url":"taobaoliveshare://pages.tmall.com/wow/z/tmtjb/town/home?wh_biz=tm&disableNav=YES&hd_from=widget&widget_open=TBCoinWidget&async=false&surge_ssr=true&isNeedHome=0"
+                    },
+                    "淘特金币":{
+                        "url":"taobaolite://pages.tmall.com/wow/z/tmtjb/town/home?wh_biz=tm&disableNav=YES&hd_from=widget&widget_open=TBCoinWidget&async=false&surge_ssr=true&isNeedHome=0"
+                    },
+                    "淘宝羊毛":{
+                        "url":"taobao://pages-fast.m.taobao.com/wow/z/app/wt/hym/home?x-ssr=true&disableNav=YES&subSource=stcz_1&openInMiniapp=true&jsCode=rechargeOpenHym&x-preload=true"
+                    },
+                    "天猫羊毛":{
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https://pages-fast.m.taobao.com/wow/z/app/wt/hym/home?x-ssr=true&disableNav=YES&subSource=stcz_1&openInMiniapp=true&jsCode=rechargeOpenHym&x-preload=true"
+                    },
+                    "点淘羊毛":{
+                        "url":"taobaoliveshare://pages-fast.m.taobao.com/wow/z/app/wt/hym/home?x-ssr=true&disableNav=YES&subSource=stcz_1&openInMiniapp=true&jsCode=rechargeOpenHym&x-preload=true"
+                    },
+                    "淘特羊毛":{
+                        "url":"taobaolite://pages-fast.m.taobao.com/wow/z/app/wt/hym/home?x-ssr=true&disableNav=YES&subSource=stcz_1&openInMiniapp=true&jsCode=rechargeOpenHym&x-preload=true"
 
+                    }
+                }
+                
+            },
             
             "❤️淘宝-多账号❤️":{
                 "type":"task",
